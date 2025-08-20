@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Mój Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+    article {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    article h2 {
+      color: #0066cc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📖 Mój Blog</h1>
+    <p>Witaj na moim blogu!</p>
+  </header>
+
+  <nav>
+    <a href="#">Strona Główna</a>
+    <a href="#">O mnie</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <div class="container">
+    <article>
+      <h2>Pierwszy wpis na blogu</h2>
+      <p><em>Data: 20.08.2025</em></p>
+      <p>To jest mój pierwszy wpis na blogu! 🚀</p>
+    </article>
+
+    <article>
+      <h2>Drugi wpis</h2>
+      <p><em>Data: 19.08.2025</em></p>
+      <p>Blog działa świetnie. Mogę dodawać kolejne wpisy w formie nowych artykułów.</p>
+    </article>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mój Blog. Wszystkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
